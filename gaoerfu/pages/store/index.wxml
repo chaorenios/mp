@@ -1,0 +1,17 @@
+<!--pages/store/index.wxml-->
+<view>
+
+  <view class='store-window'>
+    <image id='zhongxinyinhang' class='store-image-left' src='../../images/zhongxinyinhang.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='taikangrenshou' class='store-image-right' src='../../images/taikangrenshou.png' mode='widthFix' bindtap='showDetail'></image>
+  </view>
+
+  <view class='store-window'>
+    <image id='toto' class='store-image-left' src='../../images/toto.png' mode='widthFix' bindtap='showDetail'></image>
+     <image id='youzhuozhuangshi' class='store-image-right' src='../../images/youzhuozhuangshi.png' mode='widthFix' bindtap='showDetail'></image> 
+  </view>
+
+   <view class='store-window'>
+    <image id='ronghuaweilai' class='store-image-left' src='../../images/ronghuaweilai.png' mode='widthFix' bindtap='showDetail'></image>
+  </view> 
+</view>

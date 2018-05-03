@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/store/index",
+    "pages/user/index",
+    "pages/store/detail",
+    "pages/user/memberLogin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "德众家",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9d9d9d",
+    "selectedColor": "#62b900",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/store/index",
+        "text": "商家",
+        "iconPath": "images/store.png",
+        "selectedIconPath": "images/store-sel.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "会员",
+        "iconPath": "images/member.png",
+        "selectedIconPath": "images/member-sel.png"
+      }
+    ]
+  }
+}

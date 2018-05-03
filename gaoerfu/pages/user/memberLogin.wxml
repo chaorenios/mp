@@ -1,0 +1,15 @@
+<!--pages/user/memberLogin.wxml-->
+<view style='margin: 20px 10px;'>
+  <view class='input-row'>
+    <label class='input-title'>手机号码</label>
+    <input class='input-text' type='number' bindinput='usernameInput'></input>
+  </view>
+  <view class='input-row'>
+    <label class='input-title'>密码</label>
+    <input class='input-text' password='true' bindinput='passwordInput'></input>
+  </view>
+  <view class='input-button'>
+    <button class='cancel-button' bindtap='cancelAction'>取消</button>
+    <button class='login-button' type='primary' bindtap='loginAction'>登录</button>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/store/detail.wxml-->
+<image style='width: 100%;' src='{{imagePath}}' mode='widthFix'></image>
+<view style='margin: 0px 10px;'>
+  <view>
+    <text style='font-size: 35px;'>{{storeName}}</text>
+  </view>
+  <view>
+    <text style='font-size: 14px;'>{{storeDes}}</text>
+  </view>
+</view>

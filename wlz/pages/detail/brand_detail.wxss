@@ -1,0 +1,19 @@
+/* pages/detail/brand_detail.wxss */
+.detail-content {
+  padding-bottom: 50px;
+}
+
+.brand-title-image {
+  width: 100%;
+}
+
+.brand-detail {
+  margin: 10px;
+}
+
+.phone-btn {
+  bottom: 5px;
+  position: fixed;
+  left: 10px;
+  right: 10px;
+}

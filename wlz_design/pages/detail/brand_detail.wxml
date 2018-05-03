@@ -1,0 +1,18 @@
+<!--pages/detail/brand_detail.wxml-->
+<view class='detail-content'>
+  <image class='brand-title-image' mode='widthFix' src='{{brandImageSrc}}'></image>
+  <view wx:if="{{isTOTO}}">
+  <image class='brand-title-image' mode='widthFix' src='../../images/toto-d2.png'></image>
+  <image class='brand-title-image' mode='widthFix' src='../../images/toto-d3.png'></image>
+  </view>
+  
+  <!-- <text>{{brandDetailText}}</text> -->
+  <view class='brand-detail'>
+    <rich-text nodes="{{brandDetailText}}"></rich-text> 
+  </view>
+</view>
+
+<!-- 联系方式 -->
+<view>
+  <button class='phone-btn' size='default' type='primary' bindtap='call'>联系方式</button>
+</view>

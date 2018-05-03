@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class='brand-image-group'>
+  <image id='toto' class='brand-image' mode='widthFix' src='../../images/toto.jpg' bindtap='showDetail'></image>
+  <image id='aopu' class='brand-image' mode='widthFix' src='../../images/aopu.jpg' bindtap='showDetail'></image>
+  <image id='fangtai' class='brand-image' mode='widthFix' src='../../images/fangtai.jpg' bindtap='showDetail'></image>
+  <image id='gujia' class='brand-image' mode='widthFix' src='../../images/gujia.jpg' bindtap='showDetail'></image>
+  <image id='jinding' class='brand-image' mode='widthFix' src='../../images/jinding.jpg' bindtap='showDetail'></image>
+  <image id='jinpai' class='brand-image' mode='widthFix' src='../../images/jinpai.jpg' bindtap='showDetail'></image>
+  <image id='langsi' class='brand-image' mode='widthFix' src='../../images/langsi.jpg' bindtap='showDetail'></image>
+  <image id='makeboluo' class='brand-image' mode='widthFix' src='../../images/makeboluo.jpg' bindtap='showDetail'></image>
+  <image id='ruibao' class='brand-image' mode='widthFix' src='../../images/ruibao.jpg' bindtap='showDetail'></image>
+  <image id='shengxiang' class='brand-image' mode='widthFix' src='../../images/shengxiang.jpg' bindtap='showDetail'></image>
+  <image id='songbaowangguo' class='brand-image' mode='widthFix' src='../../images/songbaowangguo.jpg' bindtap='showDetail'></image>
+  <image id='suofeiya' class='brand-image' mode='widthFix' src='../../images/suofeiya.jpg' bindtap='showDetail'></image>
+  <image id='tata' class='brand-image' mode='widthFix' src='../../images/tata.jpg' bindtap='showDetail'></image>
+  <image id='xilinmen' class='brand-image' mode='widthFix' src='../../images/xilinmen.jpg' bindtap='showDetail'></image>
+  <image id='yezhifeng' class='brand-image' mode='widthFix' src='../../images/yezhifeng.jpg' bindtap='showDetail'></image>
+  <image id='yifengjiaju' class='brand-image' mode='widthFix' src='../../images/yifengjiaju.jpg' bindtap='showDetail'></image>
+</view>
+<!-- 联系方式 -->
+<view>
+  <button class='phone-btn' size='default' type='primary' bindtap='call'>联系方式</button>
+</view>

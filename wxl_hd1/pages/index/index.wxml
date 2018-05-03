@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+  <image style='width: 100%;' src='/image/back.png' mode='widthFix'></image>
+</view>
+<view style='padding-top: 10px; padding-bottom: 20px; padding-left: 10px; padding-right: 10px;'>
+  <button class='tapButton' bindtap='fillInfo'>点击获取优惠</button>
+</view>

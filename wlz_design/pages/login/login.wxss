@@ -1,0 +1,22 @@
+/* pages/login/login.wxss */
+/* page{
+  background-color: rgb(250, 250, 250);
+} */
+
+.input_login {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.input_login input {
+  height: 50px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.input_login button {
+  margin-top: 30px;
+}

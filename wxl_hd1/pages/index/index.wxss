@@ -1,0 +1,4 @@
+/**index.wxss**/
+.tapButton {
+  font-size: 16px;
+}

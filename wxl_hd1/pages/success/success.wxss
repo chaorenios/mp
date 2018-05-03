@@ -1,0 +1,21 @@
+/* pages/success/success.wxss */
+
+.success-icon-center {
+  display:flex;
+  justify-content:center; 
+}
+
+.success-icon {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.success-text-title {
+  font-size: 28px;
+}
+
+.success-text-subtitle {
+  font-size: 14px;
+  margin: 10px;
+}

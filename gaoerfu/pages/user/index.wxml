@@ -1,0 +1,18 @@
+<!--pages/user/index.wxml-->
+<view>
+  <view class='userinfo' wx:if="{{!hasUserInfo}}">
+    <text class='unLogin-text'>您还没有登录！</text>
+    <button class='unLogin-button' type='primary' bindtap='memberLogin'> 点击登录 </button>
+  </view>
+  <view class='userinfo' wx:else>
+    <view>
+      <text style='font-size: 30px;'>{{memberName}}</text>
+      <button style='float: right; margin-top: 8px;' size='mini' bindtap='logoutAction'>注销</button>
+    </view>
+    <view style='margin-top: 20px;'>
+      <text style='font-size: 14px;'>当前积分：</text>
+      <text style='font-size: 30px;'>{{memberCreditNum}}</text>
+      <image style='width: 15px; height: 15px;margin-left: 15px;' src='../../images/refresh.png' bindtap='reloadCreditNum'></image>
+    </view>
+  </view>
+</view>

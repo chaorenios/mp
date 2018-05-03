@@ -1,0 +1,49 @@
+<!--pages/customer/fillInfo.wxml-->
+<form bindsubmit='fillSuccess'>
+  <view class='fill-row'>
+    <view class='fill-row-title'>店面所在城市:</view>
+    <picker mode="multiSelector" bindchange="regionPickerChange" bindcolumnchange="regionPickerColumnChange" value="{{regionIndex}}" range="{{regionArray}}">
+      <view class="fill-row-text">
+        {{selectedCity}}
+      </view>
+    </picker>
+  </view>
+  <view class='fill-row'>
+    <view class='fill-row-title'>店面名称:</view>
+    <picker bindchange="storePickerChange" value="{{storeIndex}}" range="{{storeArray}}">
+      <view class="fill-row-text">
+        {{selectedStore}}
+      </view>
+    </picker>
+  </view>
+  <view class='fill-row'>
+    <view class='fill-row-title'>卫洗丽型号:</view>
+    <picker bindchange="wxlNoPickerChange" value="{{wxlNoIndex}}" range="{{wxlNoArray}}">
+      <view class="fill-row-text">
+        {{selectedWxlNo}}
+      </view>
+    </picker>
+  </view>
+  <view class='fill-row'>
+    <view class='fill-row-title'>顾客姓名:</view>
+    <input class='fill-row-input' name="customerName" />
+  </view>
+  <view class='fill-row'>
+    <view class='fill-row-title'>顾客手机号:</view>
+    <input class='fill-row-input' name="customerTel" type='number'/>
+  </view>
+  <view class='fill-row'>
+    <view class='fill-row-title'>是否为TOTO坐便器:</view>
+    <radio-group name='isTOTO' class='fill-row-radio'>
+      <radio value='是'>是</radio>
+      <radio value='否' style='padding-left: 20px;' checked='true'>否</radio>
+    </radio-group>
+  </view>
+  <view class='fill-row'>
+    <view class='fill-row-title'>兑换码:</view>
+    <input class='fill-row-input' style='text-transform: uppercase;' name="ticketNo" />
+  </view>
+  <view class='fill-row'>
+    <button class='fill-row-subButton' type='primary' form-type='submit'>提交信息</button>
+  </view>
+</form>

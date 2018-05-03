@@ -1,0 +1,12 @@
+<!--pages/success/success.wxml-->
+<view class='success-icon-center'>
+    <image class='success-icon' src='/image/success.png'></image>
+</view>
+<view class='success-icon-center'>
+    <text class='success-text-title'>提交成功</text>
+</view>
+<view class='success-icon-center'>
+    <text class='success-text-subtitle'>您的信息已经提交成功，在10个工作日内会有工作人员与您联络，并立享200元现金</text>
+</view>
+
+
