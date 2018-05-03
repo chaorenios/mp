@@ -2,7 +2,7 @@
 Page({
 
   showDetail: function(e) {
-    console.log(e.currentTarget.id)
+    // console.log(e.currentTarget.id)
     wx.navigateTo({
       url: 'detail?store=' + e.currentTarget.id,
     })
@@ -19,7 +19,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.showShareMenu({
+      withShareTicket: true
+    })
   },
 
   /**

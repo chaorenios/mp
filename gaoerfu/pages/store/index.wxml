@@ -13,5 +13,20 @@
 
    <view class='store-window'>
     <image id='ronghuaweilai' class='store-image-left' src='../../images/ronghuaweilai.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='leishen' class='store-image-right' src='../../images/leishen.png' mode='widthFix' bindtap='showDetail'></image>
+  </view>
+
+  <view class='store-window'>
+    <image id='shiguan' class='store-image-left' src='../../images/shiguan.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='jiuguanjia' class='store-image-right' src='../../images/jiuguanjia.png' mode='widthFix' bindtap='showDetail'></image>
   </view> 
+
+  <view class='store-window'>
+    <image id='comap' class='store-image-left' src='../../images/comap.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='koufuju' class='store-image-right' src='../../images/koufuju.png' mode='widthFix' bindtap='showDetail'></image>
+  </view> 
+
+  <view class='store-window'>
+    <image id='taiqing' class='store-image-left' src='../../images/taiqing.png' mode='widthFix' bindtap='showDetail'></image>
+  </view>  
 </view>

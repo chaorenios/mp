@@ -1,1 +1,21 @@
 /* pages/store/detail.wxss */
+
+.table {
+  border: 0px solid darkgray;
+  margin-bottom: 20px;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.td {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.td-l-title {
+  width: 25%;
+}
