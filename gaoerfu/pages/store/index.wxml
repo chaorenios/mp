@@ -3,7 +3,7 @@
 
   <view class='store-window'>
     <image id='zhongxinyinhang' class='store-image-left' src='../../images/zhongxinyinhang.png' mode='widthFix' bindtap='showDetail'></image>
-    <image id='taikangrenshou' class='store-image-right' src='../../images/taikangrenshou.png' mode='widthFix' bindtap='showDetail'></image>
+<image id='ronghuaweilai' class='store-image-right' src='../../images/ronghuaweilai.png' mode='widthFix' bindtap='showDetail'></image>
   </view>
 
   <view class='store-window'>
@@ -12,7 +12,7 @@
   </view>
 
    <view class='store-window'>
-    <image id='ronghuaweilai' class='store-image-left' src='../../images/ronghuaweilai.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='comap' class='store-image-left' src='../../images/comap.png' mode='widthFix' bindtap='showDetail'></image>
     <image id='leishen' class='store-image-right' src='../../images/leishen.png' mode='widthFix' bindtap='showDetail'></image>
   </view>
 
@@ -22,11 +22,7 @@
   </view> 
 
   <view class='store-window'>
-    <image id='comap' class='store-image-left' src='../../images/comap.png' mode='widthFix' bindtap='showDetail'></image>
-    <image id='koufuju' class='store-image-right' src='../../images/koufuju.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='koufuju' class='store-image-left' src='../../images/koufuju.png' mode='widthFix' bindtap='showDetail'></image>
+    <image id='taiqing' class='store-image-right' src='../../images/taiqing.png' mode='widthFix' bindtap='showDetail'></image>
   </view> 
-
-  <view class='store-window'>
-    <image id='taiqing' class='store-image-left' src='../../images/taiqing.png' mode='widthFix' bindtap='showDetail'></image>
-  </view>  
 </view>
