@@ -13,8 +13,8 @@ var source = {
   "shiguan": { "sponsor": "功能涂料", "fullName": "北京华奥惠科科技有限公司", "product": "涂料", "creditDes": "每消费1万元积800积分（现场7折优惠）", "address": "", "tel": "郝京喆	13701172209", "companyDes": "", "productDes": "" },
   "comap": {
     "sponsor": "净水系统", "fullName": "北京融合智达国际贸易有限公司", "product": "法国COMAP净水系统（科马普）", "creditDes": "每消费1万元积700积分（现场9折优惠）", "address": "北京市丰台区成寿寺路308号DXD设计互联中心D-138", "tel": "梁先生	13901320776", "companyDes": "北京融合智达国际贸易有限公司成立于2014 年，其前身是软装定制设计工作室。", "productDes": "主营进口高端家居产品，范围涉及卫浴，灯具，家居饰品，地毯以及定制类产品，主营品牌有:\n法国一流的净水品牌-- - COMAP（科马普）\n西班牙卫浴五金品牌---CLEVER\n意大利灯具品牌---FLOS / FOSCARINI / ARTEMIDE / ITLAMP ...\n家居饰品-- - Diesel / ibride / Seletti\n客户涉及开发商，商业客户，私人客户等。" },
-  "taiqing": { "sponsor": "太清元气保健贴", "fullName": "商丘市美联生物科技有限公司", "product": "太清元气保健贴", "creditDes": "每消费1000元积35积分（现场85折优惠）", "address": "德众联盟代售", "tel": "李燕文	18901286240", "companyDes": "", "productDes": "" },
-  "koufuju": { "sponsor": "口福居", "fullName": "北京口福居火锅城有限公司", "product": "餐饮-火锅", "creditDes": "每盒1500，现场减900，积105积分", "address": "口福居", "tel": "", "companyDes": "", "productDes": "" },
+  "taiqing": { "sponsor": "太清元气保健贴", "fullName": "商丘市美联生物科技有限公司", "product": "太清元气保健贴", "creditDes": "每盒1500，现场减900，积105积分", "address": "德众联盟代售", "tel": "李燕文	18901286240", "companyDes": "", "productDes": "" },
+  "koufuju": { "sponsor": "口福居", "fullName": "北京口福居火锅城有限公司", "product": "餐饮-火锅", "creditDes": "每消费1000元积35积分（现场85折优惠）", "address": "口福居", "tel": "", "companyDes": "", "productDes": "" },
   "zxyh": { "sponsor": "", "fullName": "", "product": "", "creditDes": "", "address": "", "tel": "", "companyDes": "", "productDes": "" }};
 Page({
 
