@@ -11,7 +11,7 @@
     </view>
     <view style='margin-top: 20px;'>
       <text style='font-size: 14px;'>当前积分：</text>
-      <text style='font-size: 30px;'>{{memberCreditNum}}</text>
+      <text style='font-size: 30px;color: red;'>{{memberCreditNum}}</text>
       <image style='width: 15px; height: 15px;margin-left: 15px;' src='../../images/refresh.png' bindtap='reloadCreditNum'></image>
     </view>
   </view>

@@ -34,73 +34,7 @@ Page({
     if (title == "toto") {
       istotoTemp = true
       imageSrc = "../../images/toto-d1.png"
-      detail = [{
-        name: 'h3',
-        attrs: {
-          // class: 'div_class',
-          // style: 'line-height: 60px; color: red;'
-        },
-        children: [{
-          type: 'text',
-          text: 'TOTO一站式&nbsp;卫浴换新服务（省时，省心，省力）'
-        }]
-      },
-      {
-        name: 'h5',
-        attrs: {
-          // class: 'div_class',
-          // style: 'line-height: 60px; color: red;'
-        },
-        children: [{
-          type: 'text',
-          text: '为您提供送，拆，装，清理一站式卫浴换新服务，让小改变带来优雅生活体验。'
-        }]
-      }, {
-        name: 'li',
-        attrs: {
-          style: 'font-size: 16px;'
-        },
-        children: [{
-          type: 'text',
-          text: '送货（不用亲自出门，我们就是搬运工）'
-        }]
-      }, {
-        name: 'li',
-        attrs: {
-          style: 'font-size: 16px;'
-        },
-        children: [{
-          type: 'text',
-          text: '拆旧（破旧才能立新，棘手的旧设备有我们来搞定）'
-        }]
-      }, {
-        name: 'li',
-        attrs: {
-          style: 'font-size: 16px;'
-        },
-        children: [{
-          type: 'text',
-          text: '安装（TOTO专业团队走心安装让您更放心）'
-        }]
-      }, {
-        name: 'li',
-        attrs: {
-          style: 'font-size: 16px;'
-        },
-        children: [{
-          type: 'text',
-          text: '清理（无需自己动手，我们帮您处理垃圾）'
-        }]
-      }, {
-        name: 'p',
-        attrs: {
-          style: 'font-size: 16px;'
-        },
-        children: [{
-          type: 'text',
-          text: '目前开放服务地区：北京，天津，河北省，山东省'
-        }]
-      }]
+      detail = ""
     } else if (title == "aopu") {
       detail = [{
         name: 'p',
