@@ -66,6 +66,7 @@ Page({
    */
   data: {
     memberName: "",
+    memberMobile: "",
     memberCreditNum: 0,
     hasUserInfo: false,
   },
@@ -79,12 +80,14 @@ Page({
     if (member != undefined && member != "") {
       this.setData({
         memberName: member.name,
+        memberMobile: member.mobile,
         memberCreditNum: member.creditNum,
         hasUserInfo: true
       })
     } else {
       this.setData({
         memberName: "",
+        memberMobile: "",
         memberCreditNum: 0,
         hasUserInfo: false
       })
@@ -123,7 +126,33 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-  
+    wx.showLoading({
+      title: '获取最新积分',
+    })
+    var stoMember = wx.getStorageSync("member");
+    var Member = Bmob.Object.extend("Member");
+    var member = new Bmob.Query(Member);
+    member.get(stoMember.objId, {
+      success: memberObj => {
+        // 查询成功
+        wx.hideLoading();
+        wx.stopPullDownRefresh();
+        if (memberObj != undefined) {
+          var newCreditNum = memberObj.get("creditNum");
+          stoMember.creditNum = newCreditNum;
+          wx.setStorageSync("member", stoMember)
+          this.setData({
+            memberCreditNum: newCreditNum,
+          })
+        } else {
+          this.hud("手机号或密码错误")
+        }
+      },
+      error: error => {
+        this.hud("网络异常,登录失败")
+        wx.stopPullDownRefresh();
+      }
+    });
   },
 
   /**

@@ -58,7 +58,6 @@ Page({
             // var idString = memberObj.get("idString")
             // var creditNum = memberObj.get("creditNum")
             var result = { "name": memberObj.get("name"), "mobile": memberObj.get("mobile"), "idString": memberObj.get("idString"), "creditNum": memberObj.get("creditNum"), "objId": memberObj.id}
-            console.log(result)
             wx.setStorageSync("member", result)
             wx.reLaunch({
               url: 'index',
