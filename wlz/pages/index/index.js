@@ -14,25 +14,10 @@ Page({
 
   call: function() {
     wx.makePhoneCall({
-      phoneNumber: '‭13911079493‬',
-      success: function(e){
-        console.info(e);
-      },
-      fail: function(e) {
-        console.info(e);
-        // 复制到剪切板
-        // wx.setClipboardData({
-        //   data: '‭13911079493‬',
-        //   success: function (res) {
-        //     console.log("成功复制" + res.data);
-        //     wx.getClipboardData({
-        //       success: function (res) {
-        //         console.log(res.data) // data
-        //       }
-        //     })
-        //   }
-        // })
-      }
+      phoneNumber: '13911079493',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
   },
 

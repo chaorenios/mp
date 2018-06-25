@@ -9,7 +9,10 @@ Page({
 
   call: function () {
     wx.makePhoneCall({
-      phoneNumber: '‭13911079493‬',
+      phoneNumber: '13911079493',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
     })
   },
 
